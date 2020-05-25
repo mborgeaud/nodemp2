@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=1">
+	<title>Yatzy! @nodemp2</title>
+	<link rel='stylesheet' type='text/css' href='styles.css' />
+	<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+	<input type="text" name="name" placeholder="Name"/> <button id="btnJoin" class="input">Join</button>
+	<button id="btnStart" class="hidden">Start</button>
+	<button id="btnPass" class="hidden">Pass</button>
+	<div id="gameContainer" class="hidden">
+		<b>Current player is: <span id="currentPlayer"></span></b>
+		<div id="scoreBoard" class="grid">
+			<div>Players</div>
+			<div><button class="btnScore" data-id="btn1s" disabled>One</button></div>
+			<div><button class="btnScore" data-id="btn2s" disabled>Two</button></div>
+			<div><button class="btnScore" data-id="btn3s" disabled>Three</button></div>
+			<div><button class="btnScore" data-id="btn4s" disabled>Four</button></div>
+			<div><button class="btnScore" data-id="btn5s" disabled>Five</button></div>
+			<div><button class="btnScore" data-id="btn6s" disabled>Six</button></div>
+			<div><button class="btnScore" data-id="btn1P" disabled>One Pair</button></div>
+			<div><button class="btnScore" data-id="btn2P" disabled>Two Pairs</button></div>
+			<div><button class="btnScore" data-id="btn3K" disabled>Three of a kind</button></div>
+			<div><button class="btnScore" data-id="btnF"  disabled>Full House</button></div>
+			<div><button class="btnScore" data-id="btnPk" disabled>Poker</button></div>
+			<div><button class="btnScore" data-id="btnSS" disabled>Small straigth</button></div>
+			<div><button class="btnScore" data-id="btnLS" disabled>Long straigth</button></div>
+			<div><button class="btnScore" data-id="btnCh" disabled>Chance</button></div>
+			<div><button class="btnScore" data-id="btnYz" disabled>Yatzy</button></div>
+			<div>Score</div>
+		</div>
+		<div class="beaker">
+			<button class="btnDice" data-id="0" disabled></button>
+			<button class="btnDice" data-id="0" disabled></button>
+			<button class="btnDice" data-id="0" disabled></button>
+			<button class="btnDice" data-id="0" disabled></button>
+			<button class="btnDice" data-id="0" disabled></button>
+			<button id="btnThrowDices" disabled>Tirar</button>
+		</div>
+	</div>
+	<footer style="position:fixed;bottom:0;left:0;width:100%;background:lightgray;padding:5px;text-align:center">&copy; 2020 | made with nodemp2</footer>
+	<script src="game.js"></script>
+</body>
+</html>

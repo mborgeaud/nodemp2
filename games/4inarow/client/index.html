@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=1">
+	<title>4-in-a-row @nodemp2</title>
+	<link rel='stylesheet' type='text/css' href='styles.css' />
+	<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+	<input type="text" name="name" placeholder="Name"/> <button id="btnJoin" class="input">Join</button>
+	<button id="btnStart" class="hidden">Start</button>
+	<button id="btnPass" class="hidden">Pass</button>
+	<div id="gameContainer" class="hidden">
+		<b>Current player is: <span id="currentPlayer"></span></b>
+		<div class="grid">
+			<div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+		</div>
+	</div>
+	<footer style="position:fixed;bottom:0;left:0;width:100%;background:lightgray;padding:5px;text-align:center">&copy; 2020 | made with nodemp2</footer>
+	<script src="game.js"></script>
+</body>
+</html>

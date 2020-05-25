@@ -1,0 +1,24 @@
+.hidden {
+	display:none
+}
+
+.grid {
+	display: grid;
+	grid-template: repeat(3, 50px) / repeat(3, 50px);
+}
+.grid div {
+	border: 1px solid black;
+}
+
+.taken {
+	font-size: 38px;
+	text-align: center;
+}
+.player-0:after {
+	color: red;
+	content: 'X'
+}
+.player-1:after {
+	color: blue;
+	content: 'O'
+}

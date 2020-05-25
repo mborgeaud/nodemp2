@@ -1,0 +1,113 @@
+.hidden {
+	display:none
+}
+
+.grid {
+	display: grid;
+	grid-template: repeat(8, 80px) / repeat(8, 80px);
+}
+.grid div {
+	background-size: 100%;
+	margin: 3px;
+}
+
+.back {
+	border: 1px solid black;
+	background-image: url('cards/back.png') !important;
+}
+.alligator {
+	background-image: url('cards/alligator.png');
+}
+.bear {
+	background-image: url('cards/bear.png');
+}
+.bird {
+	background-image: url('cards/bird.png');
+}
+.buffalo {
+	background-image: url('cards/buffalo.png');
+}
+.camel {
+	background-image: url('cards/camel.png');
+}
+.cat {
+	background-image: url('cards/cat.png');
+}
+.cow {
+	background-image: url('cards/cow.png');
+}
+.dog {
+	background-image: url('cards/dog.png');
+}
+.duck {
+	background-image: url('cards/duck.png');
+}
+.elephant {
+	background-image: url('cards/elephant.png');
+}
+.fish {
+	background-image: url('cards/fish.png');
+}
+.frog {
+	background-image: url('cards/frog.png');
+}
+.giraffe {
+	background-image: url('cards/giraffe.png');
+}
+.goat {
+	background-image: url('cards/goat.png');
+}
+.gorilla {
+	background-image: url('cards/gorilla.png');
+}
+.hippopotamus {
+	background-image: url('cards/hippopotamus.png');
+}
+.horse {
+	background-image: url('cards/horse.png');
+}
+.kangaroo {
+	background-image: url('cards/kangaroo.png');
+}
+.koala {
+	background-image: url('cards/koala.png');
+}
+.lion {
+	background-image: url('cards/lion.png');
+}
+.monkey {
+	background-image: url('cards/monkey.png');
+}
+.panda {
+	background-image: url('cards/panda.png');
+}
+.pig {
+	background-image: url('cards/pig.png');
+}
+.rabbit {
+	background-image: url('cards/rabbit.png');
+}
+.rhinoceros {
+	background-image: url('cards/rhinoceros.png');
+}
+.rooster {
+	background-image: url('cards/rooster.png');
+}
+.sheep {
+	background-image: url('cards/sheep.png');
+}
+.snake {
+	background-image: url('cards/snake.png');
+}
+.squirrel {
+	background-image: url('cards/squirrel.png');
+}
+.tiger {
+	background-image: url('cards/tiger.png');
+}
+.toucan {
+	background-image: url('cards/toucan.png');
+}
+.zebra {
+	background-image: url('cards/zebra.png');
+}

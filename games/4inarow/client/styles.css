@@ -1,0 +1,26 @@
+.hidden {
+	display:none
+}
+
+.grid {
+	width: max-content;
+	display: grid;
+	grid-template: repeat(6, 50px) / repeat(7, 50px);
+	background: black;
+}
+.grid div {
+	border: 1px solid black;
+	border-radius: 50%;
+	background: white;
+}
+
+.taken {
+	font-size: 38px;
+	text-align: center;
+}
+.player-0 {
+	background: red!important;
+}
+.player-1 {
+	background: blue!important;
+}
